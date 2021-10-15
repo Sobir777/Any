@@ -1,0 +1,17 @@
+.videoItem {
+    padding: 60px 0 80px 0;
+    background: white;
+}
+
+.videoText {
+    max-width: 750px;
+    margin: auto;
+    text-align: center;
+}
+.clsDescription {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+}

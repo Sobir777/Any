@@ -1,0 +1,15 @@
+.containeer{    
+    height: 235px;
+    max-width: 1440px;
+
+  
+}
+.swiperCard{
+    display: flex;
+    gap: 120px;
+    background: #FBFBFB;
+}
+
+
+
+

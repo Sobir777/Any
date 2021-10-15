@@ -1,0 +1,99 @@
+.Container{
+    display: flex;
+    width: 1440px;
+    margin: auto;
+    min-height: 580px;
+    max-width: 1440px;
+}
+
+.LOgo{
+    max-width: 485px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.DescriptionLogo{
+    max-width: 530px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #212121;
+}
+
+.BtnLogo{
+    width: 208px;
+    height: 48px;
+    background: linear-gradient(264.2deg, #129E47 2.5%, #1069AB 101.82%, #1069AB 101.82%);
+    border-radius: 25px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: block;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.ConImgs{
+    display: flex;
+}
+
+.Imgs{
+    display: flex;
+    flex-direction: column;
+    gap: 450px;
+}
+
+.leftContainer{
+    margin-left: 120px;
+}
+
+.Conconnon{
+    margin-left: -110px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

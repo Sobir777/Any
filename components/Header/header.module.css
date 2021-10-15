@@ -1,0 +1,98 @@
+.HaderContainer{
+    background: #A8EECD;
+    width: 100%;
+    margin: auto;
+    max-height: 133px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.IMGContainer{
+    width: 60px;
+}   
+
+.DescriptionLogo{
+    max-width: 193px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    color: #212121;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+.HaderImgComponent{
+    display: flex;
+    margin-left:100px ;
+}
+.HaderImgComponentRight{
+    width: 400px;
+    display: flex;
+    gap: 15px;
+    margin-right:100px ;
+}
+.number{
+    margin-top: 8px;
+    width: 153px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #212121;
+}
+
+.text{
+    max-width:171px ;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    color: #212121;
+}
+
+.buttom{
+    width: 180px;
+    height: 48px;
+    background: linear-gradient(264.2deg, #129E47 2.5%, #1069AB 101.82%, #1069AB 101.82%);
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+}
+
+/* buttoms */
+.HaderComponentTwo{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 111px;
+    justify-content: center;
+    background: #129E47;
+}
+
+.btnAll{
+    width: 150px;
+    height: 50px;
+    background-color: #129E47;
+    border: none;
+    color: #fff;
+    border-right:1px solid #fff ;
+}
+.btnAllOne{
+    width: 150px;
+    height: 50px;
+    background-color: #129E47;
+    border: none;
+    color: #fff;
+    border-left:1px solid #fff ;
+    border-right:1px solid #fff ;
+}
+
+.btnAll:hover{
+    background-color: #72E7B1;
+    color: #000;
+}
+.btnAllOne:hover{
+    background-color: #72E7B1;
+    color: #000;
+}
+

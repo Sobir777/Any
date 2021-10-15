@@ -1,0 +1,161 @@
+.LogoTitle{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: #212121;
+}
+
+.ForLine{
+    width: 90px;
+    height: 3px;
+    background: #129E47;
+    border-radius: 2px;
+    margin-left: 105px;
+}
+
+.Title{
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.FirstCon{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.ImgsTitle{
+    max-width: 890px;
+    margin: auto;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+
+.Container{
+    max-width: 930px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.ContainerBtn{
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.Btn{
+    width: 160px;
+    height: 50px;
+    background: #F4F4F4;
+    border-radius: 30px;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+}
+
+.Btn:hover{
+    color: #fff;
+    background: #129E47;
+}
+
+.BtnN{
+    width: 160px;
+    height: 50px;
+    background: #F4F4F4;
+    border-radius: 30px;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+}
+.BtnN:hover{
+    color: #fff;
+    background: #129E47;
+}
+
+
+.Descriptionn{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+
+}
+
+
+.DescriptionTitle{
+    max-width: 890px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #212121;
+
+}
+
+.aaa{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.aaaa{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.DescriptionLogo{
+    max-width: 890px;    
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #212121;
+    margin-bottom:35px ;
+}
+
+.PDFContainer{
+    width: 890px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 115px;
+    justify-content: space-between;
+}
+
+.PDFbtn{
+    width: 158px;
+    height: 48px;
+    background: linear-gradient(264.2deg, #129E47 2.5%, #1069AB 101.82%);
+    border-radius: 25px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.PDFDescription{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #129E47;
+}
+
+.Icn{
+    margin-bottom: -2px;
+}
+

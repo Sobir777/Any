@@ -1,0 +1,23 @@
+.titleName {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    position: relative;
+}
+.titleName::before {
+    content: "";
+    width: 100px;
+    height: 3px;
+    background: #129e47;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 0;
+}
