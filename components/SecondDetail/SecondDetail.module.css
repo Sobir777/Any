@@ -1,0 +1,174 @@
+.descriptionOne{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #212121;
+}   
+.descriptionTwo{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #212121;
+}
+.titleContainer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top:26px ;
+    margin-bottom:26px ;
+}
+.titleDesciption{
+    width: 999px;
+    margin: auto;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #212121;
+    margin-bottom: 80px;
+}
+.components{
+    max-width: 1200px;
+    display: flex;
+    gap: 40px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.desCripTioN{
+    max-width: 650px;
+}
+.title{
+    margin-bottom: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #212121;
+    margin-top: 40px;
+}
+.logo{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+.descriptionn{
+    max-width: 503px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+.descriptionSecond{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+.cardsImg{
+    border-radius: 10px;
+}
+.cardsImgg{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.containerLastComponent{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    margin-bottom: 130px;
+    gap: 30px;
+}
+.lastComponent{
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.desCriptionComponent{
+    width: 380px;
+    padding-bottom: 40px;
+    padding-top: 35px;
+    margin-top: -20px;
+    padding-left:25px ;
+}
+.titleComponent{
+    width: 340px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #212121;
+    margin-bottom: 10px;
+}
+.logoComponent{
+    width: 340px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: #212121;
+}
+.container{
+    display: flex; 
+    margin: auto;
+    min-height: 580px;
+    max-width: 1440px;
+}
+.lOgo{  
+    max-width: 485px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.description{
+    max-width: 530px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #212121;
+}
+.btn{
+    width: 208px;
+    height: 48px;
+    background: linear-gradient(264.2deg, #129E47 2.5%, #1069AB 101.82%, #1069AB 101.82%);
+    border-radius: 25px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: block;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+.containerImgs{
+    display: flex;
+}
+.textContainer{
+    margin-left: 120px;
+}
+.textImg{
+    margin-left: -110px;
+}   
+.titleImg{
+    max-width: 466px;
+    max-height: 436px;
+}
+    

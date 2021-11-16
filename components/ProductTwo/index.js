@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import cls from './ProductTwo.module.css'
 import cannon from '../../public/cannon.jpg'
 import ProductLogo from '../../public/ProductLogo.jpg'
@@ -21,18 +22,17 @@ SwiperCore.use([Pagination, Navigation]);
 export default function Products() {
     return (
         <>
-
-            <div className={cls.TitleContainer}>
-                <div className={cls.Title}>
-                    <p className={cls.ForLine}></p>
-                    <h1 className={cls.LogoTitle}>Подключ</h1>
+            <div className={cls.titleContainer}>
+                <div className={cls.title}>
+                    <p className={cls.line}></p>
+                    <h1 className={cls.logoTitle}>Подключ</h1>
                 </div>
-                <div className={cls.ImgsTitle}>
-                    <div><Image className={cls.Telefon} src={cannon} alt="Picture of the author" /></div>
-                    <div><Image className={cls.Telefon} src={ProductLogo} alt="Picture of the author" /></div>
-                    <div><Image className={cls.Telefon} src={belomonTLogo} alt="Picture of the author" /></div>
-                    <div><Image className={cls.Telefon} src={Logoo} alt="Picture of the author" /></div>
-                    <div><Image className={cls.Telefon} src={logooo} alt="Picture of the author" /></div>
+                <div className={cls.imgsTitle}>
+                    <div><Image src={cannon} alt="Picture of the author" /></div>
+                    <div><Image src={ProductLogo} alt="Picture of the author" /></div>
+                    <div><Image src={belomonTLogo} alt="Picture of the author" /></div>
+                    <div><Image src={Logoo} alt="Picture of the author" /></div>
+                    <div><Image src={logooo} alt="Picture of the author" /></div>
                 </div>
             </div>
 
@@ -58,50 +58,36 @@ export default function Products() {
                     <SwiperSlide className={cls.Swiper}>
                         <div className={cls.Container}>
                             <Image className={cls.Telefon} src={Img} alt="Picture of the author" />
-                        </div>
+                        </div>                    <SwiperSlide className={cls.Swiper}>
+                            <div className={cls.Container}>
+                                <Image className={cls.Telefon} src={Img} alt="Picture of the author" />
+                            </div>
+                        </SwiperSlide>
                     </SwiperSlide>
-                    <SwiperSlide className={cls.Swiper}>
-                        <div className={cls.Container}>
-                            <Image className={cls.Telefon} src={Img} alt="Picture of the author" />
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide className={cls.Swiper}>
-                        <div className={cls.Container}>
-                            <Image className={cls.Telefon} src={Img} alt="Picture of the author" />
-                        </div>
-                    </SwiperSlide>
+
                 </Swiper>
             </div>
-
-            <div className={cls.ContainerBtn}>
-                <button className={cls.BtnN}>Computed <br /> Tomography </button>
-                <button className={cls.BtnN}>Magnetic <br /> Resonance </button>
-                <button className={cls.Btn}>Ultrasound </button>
-                <button className={cls.Btn}>X-Ray </button>
-                <button className={cls.Btn}>X-Ray </button>
-            </div>
-
             <div className={cls.Descriptionn}>
-                <div className={cls.aaa}>
-                    <h1 className={cls.DescriptionTitle}> Больше клиническихвозможностей Повышение продуктивности Получение экономической</h1>
+                <div className={cls.productTitle}>
+                    <h1 className={cls.productTitle}> Больше клиническихвозможностей Повышение продуктивности Получение экономической</h1>
                 </div>
-                <div className={cls.aaaa}>
+
+                <div className={cls.productDescription}>
                     <p className={cls.DescriptionLogo}>Инновационная система Aquilion Prime SP — это аппарат КТ,обеспечивающий олее быструю работу с пациентами, эффективное сканирование сердца и новые возможности в диагностике.  </p>
                 </div>
-                <div className={cls.PDFContainer}>
+
+                <div className={cls.moreContainer}>
                     <div>
-                        <button className={cls.PDFbtn}>Cкачать PDF</button>
+                        <button className={cls.morebBtn}>Cкачать PDF</button>
                     </div>
-                    <div >
-                        <p className={cls.PDFDescription}>Узнать подробнее  <span className={cls.Icn}><Vector></Vector></span></p>
-                    </div>
+                    <Link href="/firstDetail" >
+                        <div className={cls.moreLinkCon}>
+                            <p className={cls.moreLink}  >Узнать подробнее  </p><Vector></Vector>
+                        </div>
+                    </Link>
                 </div>
             </div>
 
         </>
-    )
+    )   
 }
-
-
-
-

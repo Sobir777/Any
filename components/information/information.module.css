@@ -1,0 +1,222 @@
+.logoTitle {
+  display: flex;
+  gap: 10px;
+  max-width: 1200px;
+  margin: auto;
+  align-items: center;
+  margin-top: 36px;
+  margin-bottom: 26px;
+}
+.descriptionOne {
+  width: 156px;
+  height: 17px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #212121;
+}
+.color {
+  color: #1069ab;
+}
+.cOlor {
+  color: red;
+}
+.titleContainer {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 40px;
+}
+.title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: #212121;
+} 
+.description {
+  max-width: 763px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #212121;
+  margin-top: 25px;
+  margin-bottom: 80px;
+}
+.input {
+  width: 575px;
+  height: 50px;
+  padding-left: 5px;
+  margin-bottom: 25px;
+  margin-top: 5px;
+}
+.btn {
+  width: 158px;
+  height: 48px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  background: linear-gradient(
+    264.2deg,
+    #129e47 2.5%,
+    #1069ab 101.82%,
+    #1069ab 101.82%
+  );
+  border-radius: 25px;
+  color: #ffffff;
+  border: none;
+}
+.personalData {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 50px;
+  margin-bottom: 85px;
+}
+.Comment {
+  width: 575px;
+  height: 150px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.descriptionContact {
+  max-width: 575px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #212121;
+  margin-top: 25px;
+  margin-bottom: 28px;
+}
+.numberContact {
+  width: 183px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1069ab;
+}
+.descriptionContactt {
+  max-width: 454px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #212121;
+  margin-top: 11px;
+  margin-bottom: 25px;
+}
+.titlePersonalData {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  color: #212121;
+  margin-bottom: 35px;
+}
+.number {
+  font-size: 20px;
+}
+.label {
+  margin-bottom: 5px;
+}
+
+@media (max-width: 1200px) {
+  .logoTitle {
+    margin-left: 40px;
+  }
+  .titleContainer {
+    margin-left: 40px;
+  }
+  .input {
+    width: 440px;
+  }
+  .Comment {
+    width: 440px;
+  }
+  .personalData {
+    max-width: 1000px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .input {
+    width: 370px;
+  }
+  .Comment {
+    width: 370px;
+  }
+  .personalData {
+    max-width: 800px;
+  }
+}
+@media (max-width: 820px) {
+  .personalData{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .input {
+    width: 330px;
+  }
+  .Comment {
+    width: 330px;
+  }
+
+}
+@media (max-width: 750px) {
+  .input {
+    width: 310px;
+  }
+  .Comment {
+    width: 310px;
+  }
+
+}
+@media (max-width: 700px) {
+  .personalData{
+    flex-direction: column-reverse;
+  }
+  .input {
+    width: 90%;
+  }
+  .Comment {
+    width: 90%;
+  }
+}
+@media (max-width: 420px) {
+  .input {
+    width: 320px;
+  }
+  .Comment {
+    width: 320px;
+  }
+}
+@media (max-width: 360px) {
+  .input {
+    width: 300px;
+  }
+  .Comment {
+    width: 300px;
+  }
+  .personalData {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 320px) {
+  .personalData {
+    margin-left: 10px;
+  }
+}

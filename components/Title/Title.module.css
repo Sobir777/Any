@@ -12,7 +12,9 @@
 }
 .titleName::before {
     content: "";
-    width: 100px;
+    width: 100px; 
+    font-family: Montserrat;
+    font-style: normal;
     height: 3px;
     background: #129e47;
     position: absolute;

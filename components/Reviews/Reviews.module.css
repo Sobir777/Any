@@ -4,8 +4,7 @@
     margin: auto;
     min-height: 580px;
     max-width: 1440px;
-}
-
+}     
 .LOgo{
     max-width: 485px;
     font-weight: bold;
@@ -13,16 +12,14 @@
     line-height: 44px;
     margin-top: 20px;
     margin-bottom: 15px;
-}
-
+}   
 .DescriptionLogo{
     max-width: 530px;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     color: #212121;
-}
-
+}   
 .BtnLogo{
     width: 208px;
     height: 48px;
@@ -36,25 +33,20 @@
     color: #FFFFFF;
     margin-top: 30px;
 }
-
 .ConImgs{
     display: flex;
 }
-
 .Imgs{
     display: flex;
     flex-direction: column;
     gap: 450px;
 }
-
 .leftContainer{
     margin-left: 120px;
 }
-
 .Conconnon{
     margin-left: -110px;
 }
-
 .LogoTitle{
     font-weight: bold;
     font-size: 36px;
@@ -62,26 +54,23 @@
     color: #212121;
     margin-bottom: 50px;
 }
-
-.containerBig{
+.container{
     width: 100%;
     background: #FBFBFB;
     display: flex;
     justify-content: center;
     padding-top: 30px;
 }
-.containerbig{
+.bigComponent{
     background: #FBFBFB;
 }
-
-.ForLine{   
+.line{   
     width: 90px;
     height: 3px;
     background: #129E47;
     border-radius: 2px;
     margin-left: 185px;
 }
-
 .Logo{
     font-weight: 500;
     font-size: 16px;
@@ -89,34 +78,27 @@
     margin-bottom: 50px;
     color: #212121;
 }
-
-.TitleContainer{
+.titleContainer{
     width: 460px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
 }
-
-.FirstCon{
+.textComponent{
     max-width: 1440px;
     margin: auto;
     display: flex;
     justify-content: center;
-}
-
+} 
 .imgCon{
     display: flex;
     gap: 30px;
 }
-
 .containerDescription{
     max-width: 549px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
 
+}
 .logo{
     width: 150px;
     font-family: Montserrat;
@@ -126,7 +108,6 @@
     line-height: 30px;
     color: #212121;
 }
-
 .title{
     width: 110px;
     font-family: Montserrat;
@@ -135,8 +116,9 @@
     font-size: 18px;
     line-height: 150%;
     color: #CFCFCF;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
-
 .descriptionn{
     max-width: 549px;
     font-family: Montserrat;
@@ -146,11 +128,24 @@
     line-height: 150%;
     color: #212121;
 }
+@media  (max-width: 800px) {
+    .imgCon{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .imgContainerPartvoliyo{
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}   
+@media  (max-width: 460px) {
+    .descriptionn{
+        max-width: 460px;
+        font-size:14px;
+    }
+    .imgContainerPartvoliyo{
+        max-width: 460px;
 
-
-
-
-
-
-
-
+    }
+}   

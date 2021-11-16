@@ -1,11 +1,11 @@
 export const videoCard = [
     {
-        video: "../../VIDEO.jpg",
+        video: "https://www.youtube.com/watch?v=Ac_K6CM7tlY",
     },
     {
-        video: "../../VIDEO.jpg",
+        video: "https://www.youtube.com/watch?v=Ac_K6CM7tlY",
     },
     {
-        video: "../../VIDEO.jpg",
+        video: "https://www.youtube.com/watch?v=Ac_K6CM7tlY",
     },
 ]

@@ -1,29 +1,35 @@
-.Container{
-    display: flex;
+.container{
+    display: flex;  
     width: 1440px;
     margin: auto;
     min-height: 580px;
     max-width: 1440px;
-}
-
-.LOgo{
+}       
+.lOgo{  
+    font-family: Montserrat;
+    font-style: normal;
     max-width: 485px;
     font-weight: bold;
     font-size: 36px;
     line-height: 44px;
     margin-top: 20px;
     margin-bottom: 15px;
-}
-
-.DescriptionLogo{
+    text-align: start;  
+}   
+.description{
+    font-family: Montserrat;
+    font-style: normal;
     max-width: 530px;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     color: #212121;
-}
 
-.BtnLogo{
+    text-align: start;
+}
+.btn{
+    font-family: Montserrat;
+    font-style: normal;
     width: 208px;
     height: 48px;
     background: linear-gradient(264.2deg, #129E47 2.5%, #1069AB 101.82%, #1069AB 101.82%);
@@ -36,64 +42,129 @@
     color: #FFFFFF;
     margin-top: 30px;
 }
-
-.ConImgs{
+.containerImgs{
     display: flex;
+    align-items: center;
 }
-
 .Imgs{
     display: flex;
     flex-direction: column;
     gap: 450px;
 }
-
-.leftContainer{
+.textContainer{
     margin-left: 120px;
 }
-
-.Conconnon{
+.textImg{
     margin-left: -110px;
+}   
+.AllFirst{
+    margin-top: 110px;
+}
+.titleImg{
+    display: flex;
+    justify-content: flex-start;
 }
 
 
 
+@media  (max-width: 1300px) {
+    .container{
+        margin: 0px 10px ;
+    }
+
+}
+@media  (max-width: 1000px) {
+    .lOgo{
+        font-size: 34px;
+    }
+    .description{
+        font-size: 15px;
+    }
+    .textImg{
+        max-width: 420px;
+    }
+}
+@media  (max-width: 950px) {
+    .lOgo{
+        font-size: 30px;
+    }
+    .textImg{
+        max-width: 400px;
+    }
+}
+@media  (max-width: 900px) {
+    .container{
+        display: block;
+    }
+    .lOgo{  
+        max-width: 80%;
+        font-weight: bold;
+        font-size: 46px;
+        line-height: 44px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        text-align: start;  
+    }
+    .description{
+        max-width: 80%;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 150%;
+        color: #212121;
+    
+        text-align: start;
+    }
+    .textImg{
+        margin-left: -110px;
+    } 
 
 
 
+}
+@media  (max-width: 600px) {
+    .lOgo{  
+        max-width:90%;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 44px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        text-align: start;  
+    }
+    .description{
+        max-width: 80%;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: #212121;
+    
+        text-align: start;
+    }
+    .textImg{
+        max-width: 300px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
 
+}
+@media  (max-width: 850px) {
+    .textContainer{
+        margin-left: 40px;
+    }
 
+}
+@media  (max-width: 875px) {
+    .textImg{
+        margin-top: 20px;
+        margin-left:0px ;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+@media  (max-width: 320px) {
+    .lOgo{  
+        font-size: 30px;
+    }
+}
 
 

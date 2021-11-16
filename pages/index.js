@@ -7,22 +7,33 @@ import ProductTwo from '../components/ProductTwo/index'
 import Video from '../components/Video/index'
 import Reviews from '../components/Reviews'
 import LastContainer from '../components/LastContainer/index'
+import {fetchQuery} from '../utils';
 
-export default function Home() {
-  return (
+export default function home({data, products, turnkeys}) {  
+  console.log(data, 'daara')
+  return (  
     <div>
-      <First/>
-      <Cards/>
-      <Products/>
-      <Partners/>
-      <Video/>
-      <ProductTwo/>
-      <Reviews/>
-      <LastContainer/>
-
-
-
-
+       <First banner={data.Banners}/>         
+       <Cards/>         
+       <Products/>      
+       <Partners/>      
+       <Video/>         
+       <ProductTwo/>    
+       <Reviews/>       
+       <LastContainer/> 
     </div>
   )
+}
+
+export async function getServerSideProps() {
+  const homeData = await fetchQuery('home-page');
+  const products = await fetchQuery('products')
+  const turnkeys = await fetchQuery('turnkeys')
+  return {
+      props: {
+      products,
+      turnkeys,
+      data:homeData
+      }
+  }
 }

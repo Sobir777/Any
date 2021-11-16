@@ -1,0 +1,459 @@
+.logoTitle{
+    display: flex;
+    gap: 10px;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;    
+    margin-top:36px ;
+    margin-bottom: 26px;
+}
+.descriptionOne{
+    width: 156px;
+    height: 17px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #212121;
+
+}   
+.container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.titleeService{
+    max-width: 440px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #212112;
+}
+.descriptionService{
+    max-width: 522px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.btnService{
+    width: 208px;
+    height: 48px;
+    background: linear-gradient(264.2deg, #129E47 2.5%, #1069AB 101.82%, #1069AB 101.82%);
+    border-radius: 25px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: none;
+}
+.btnServicee{
+    width: 208px;
+    height: 48px;
+    display: none;
+    background: linear-gradient(264.2deg, #129E47 2.5%, #1069AB 101.82%, #1069AB 101.82%);
+    border-radius: 25px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: none;
+}
+.titleImg{
+    margin-right: 50px;
+}
+.organize{
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.organizeTitle{
+    max-width: 557px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #212121;
+    margin-bottom: 25px;
+}
+.organizeDescription{
+    max-width: 1200px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #212121;
+}
+.threeType{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 50px;
+}
+.Description{
+    max-width: 310px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+.DescriptiOn{
+    max-width: 380px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+.DescriptIon{
+    max-width: 175px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+.technical{
+    max-width:100%;
+    margin: auto;
+    margin-bottom: 53px;
+}
+.technicalTitle{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background: #FBFBFB;
+    margin-bottom: 40px;
+}
+.technicalDesciption{
+    max-width: 1200px;
+    margin: auto;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #212121;
+}
+.technicalText{
+    max-width: 1200px;
+    margin: auto;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #212121;
+}
+.contract{
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.contractDescription{
+    max-width: 933px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    color: #B5B5B5;
+}
+.contractSend{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.contractTitle{
+    max-width: 862px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    color: #000000;
+}
+.contractBtn{
+    width: 180px;
+    height: 48px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: none;
+    background: linear-gradient(264.2deg, #129E47 2.5%, #1069AB 101.82%, #1069AB 101.82%);
+    border-radius: 25px;
+}
+.contractInput{
+    max-width: 1200px;
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+.input{
+    width: 575px;
+    height: 50px;
+    padding-left: 5px;
+}
+.Comment{
+    width: 575px;
+    height: 150px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.cOlor{
+    color: red; 
+}
+.telefone{
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+.label{
+    margin-bottom: 5px;
+}
+
+@media (max-width: 1260px) {
+    .technical{
+        max-width: 1000px;
+    }
+    .contract{
+        padding: 0px 20px;
+    }
+    .organize{
+        padding: 0px 20px;
+    }
+    .technicalTitle{
+        padding: 0px 20px;    
+    }
+  }
+@media (max-width: 1200px) {
+
+    .contract{
+        max-width: 1000px;
+    }
+    .container{
+        max-width: 1000px;
+    }
+    .logoTitle{
+        max-width: 1000px;
+    }
+    .organize{
+        max-width: 1000px;
+    }
+    .input{
+        width: 480px;
+    }
+    .Comment{
+        width: 480px;
+    }
+    .contractInput{
+        max-width: 1000px;
+        gap: 40px;
+    }
+    .contractDescription{
+        max-width: 700px;
+    }
+  }
+@media (max-width: 1100px) {
+    .technical{
+        max-width: 870px;
+    }
+    .contract{
+        max-width: 900px;
+    }
+    .container{
+        max-width: 900px;
+    }
+    .logoTitle{
+        max-width: 900px;
+    }
+    .organize{
+        max-width: 900px;
+    }
+    .input{
+        width: 400px;
+    }
+    .Comment{
+        width: 400px;
+    }
+    .contractInput{
+        max-width: 900px;
+        gap: 40px;
+    }
+    .contractDescription{
+        max-width: 600px;
+    }
+  }
+@media (max-width: 950px) {
+    .technical{
+        max-width: 730px;
+    }
+    .contract{
+        max-width: 750px;
+    }
+    .container{
+        max-width: 750px;
+    }
+    .logoTitle{
+        max-width: 750px;
+    }
+    .organize{
+        max-width: 750px;
+    }
+    .input{
+        width: 300px;
+    }
+    .Comment{
+        width: 400px;
+    }
+    .contractInput{
+        max-width: 700px;
+        gap: 50px;
+    }
+    .contractDescription{
+        max-width: 500px;
+    }
+  }
+@media (max-width: 770px) {
+    .technical{
+        max-width: 730px;
+        padding-left: 20px;
+    }
+    .btnServicee{
+        display: block;
+    }
+    .titleeService{
+        padding-left:20px ;
+    }
+    .logoTitle{
+        padding-left:20px ;
+    }
+    .btnService{
+        display: none;
+    }
+    .contract{
+        margin-left: 50px;
+        max-width: 750px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .threeType{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .smollContainer{
+        display: flex;
+    }
+    .descriptionService{
+        max-width: 100%;
+        padding: 0px 20px;
+    }
+    .logoTitle{
+        max-width: 750px;
+    }
+    .organize{
+        max-width: 750px;
+    }
+    .input{
+        width: 500px;
+    }
+    .Comment{
+        width: 500px;
+    }
+    .contractInput{
+        flex-direction: column;
+        max-width: 700px;
+        gap: 50px;
+    }
+    .contractDescription{
+        display: none;
+    }
+    
+  }
+@media (max-width: 600px) {
+    .contractTitle{
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .DescriptiOn{
+        max-width: 65%;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 150%;
+        color: #000000;
+    }
+    .technical{
+        padding-left:20px;
+    }
+    .contract{
+        padding-left:20px;
+    }
+    .container{
+        padding-left:20px;
+    }
+    .logoTitle{
+        padding-left:20px;
+    }
+    .organize{
+        padding-left:20px;
+    }
+    .input{
+        width: 400px;
+    }
+    .Comment{
+        width: 400px;
+    }
+    .contract{
+        margin-left: 0px;
+    }
+  }
+@media (max-width: 420px) {
+    .contractTitle{
+        font-size: 22px;
+    }
+    .input{
+        width: 290px;
+    }
+    .Comment{
+        width: 290px;
+    }
+    .contract{
+        margin-left: 0px;
+    }
+  }
+@media (max-width: 350px) {
+    .smollContainer{
+        display: block;
+    }
+  }

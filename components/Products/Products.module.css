@@ -1,19 +1,19 @@
-.LogoTitle{
+.logoTitle{
+    font-family: Montserrat;
+    font-style: normal;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 36px;    
     line-height: 44px;
     color: #212121;
-}
-
-.ForLine{
+} 
+.line{
     width: 90px;
     height: 3px;
     background: #129E47;
     border-radius: 2px;
     margin-left: 105px;
 }
-
-.Title{
+.title{ 
     width: 300px;
     margin: auto;
     display: flex;
@@ -22,30 +22,26 @@
     text-align: center;
     margin-bottom: 50px;
 }
-
 .FirstCon{
     max-width: 1440px;
     margin: auto;
     display: flex;
     justify-content: center;
 }
-
-.ImgsTitle{
+.imgsTitle{
     max-width: 890px;
     margin: auto;
     display: flex;
     gap: 60px;
     justify-content: center;
 }
-
 .Container{
     max-width: 930px;
     margin: auto;
     display: flex;
     justify-content: center;
 }
-
-.ContainerBtn{
+.filterBtn{
     margin: auto;
     display: flex;
     gap: 30px;
@@ -53,8 +49,9 @@
     margin-bottom: 40px;
     margin-left: 20px;
 }
-
-.Btn{
+.btn{
+    font-family: Montserrat;
+    font-style: normal;
     width: 160px;
     height: 50px;
     background: #F4F4F4;
@@ -65,13 +62,13 @@
     line-height: 17px;
     text-align: center;
 }
-
-.Btn:hover{
+.btn:hover{
     color: #fff;
     background: #129E47;
 }
-
-.BtnN{
+.btnTwo{
+    font-family: Montserrat;
+    font-style: normal; 
     width: 160px;
     height: 50px;
     background: #F4F4F4;
@@ -82,12 +79,10 @@
     line-height: 17px;
     text-align: center;
 }
-.BtnN:hover{
+.btnTwo:hover{
     color: #fff;
     background: #129E47;
 }
-
-
 .Descriptionn{
     max-width: 1440px;
     margin: auto;
@@ -96,29 +91,28 @@
     justify-content: center;
 
 }
-
-
-.DescriptionTitle{
+.productTitle{
+    font-family: Montserrat;
+    font-style: normal;
     max-width: 890px;
     font-weight: 600;
     font-size: 24px;
     line-height: 29px;
     color: #212121;
-
-}
-
-.aaa{
     margin: auto;
     display: flex;
     justify-content: center;
+
 }
-.aaaa{
-    margin: auto;
+
+.productDescription{
+    margin: auto;   
     display: flex;
     justify-content: center;
 }
-
 .DescriptionLogo{
+    font-family: Montserrat;
+    font-style: normal;
     max-width: 890px;    
     font-weight: normal;
     font-size: 16px;
@@ -126,8 +120,7 @@
     color: #212121;
     margin-bottom:35px ;
 }
-
-.PDFContainer{
+.moreContainer{
     width: 890px;
     margin: auto;
     display: flex;
@@ -135,8 +128,9 @@
     margin-bottom: 115px;
     justify-content: space-between;
 }
-
-.PDFbtn{
+.morebBtn{
+    font-family: Montserrat;
+    font-style: normal;
     width: 158px;
     height: 48px;
     background: linear-gradient(264.2deg, #129E47 2.5%, #1069AB 101.82%);
@@ -147,15 +141,88 @@
     line-height: 20px;
     color: #FFFFFF;
 }
-
-.PDFDescription{
+.moreLink{
+    cursor: pointer;
+    font-family: Montserrat;
+    font-style: normal;         
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
     color: #129E47;
 }
-
 .Icn{
     margin-bottom: -2px;
-}
+}   
 
+@media  (max-width: 890px) {
+    .moreContainer{
+        width: 700px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        margin-bottom: 115px;
+        justify-content: space-between;
+    }
+    .productTitle{
+        font-size: 26px;
+        margin: 0px 10px;
+    }
+
+    .DescriptionLogo{
+        font-size: 22px;
+        margin-left: 20px ;
+        margin-bottom: 20px;
+    }
+    .imgsTitle{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .filterBtn{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media  (max-width: 700px) {
+    .moreContainer{
+        width: 600px;
+    }
+
+}
+@media  (max-width: 600px) {
+    .moreContainer{
+        width: 500px;
+    }
+
+}
+@media  (max-width: 500px) {
+    .moreContainer{
+        width: 400px;
+    }
+
+}   
+@media  (max-width: 400px) {
+    .moreContainer{
+        width: 300px;
+    }
+    .productTitle{
+        margin-left: 10px;
+    }
+
+}   
+@media  (max-width: 350px) {
+
+    .productTitle{
+        margin-left: 10px;
+        font-size: 22px;
+    }
+    .DescriptionLogo{
+        font-size:14px ;
+    }
+}  
+
+@media  (max-width: 300px) {
+    .moreContainer{
+        width: 250px;
+    }
+
+}   

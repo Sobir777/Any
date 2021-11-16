@@ -1,0 +1,449 @@
+.titleImg {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-image: url("../../public/EventDetailBigImgTwo.png");
+  background-repeat: no-repeat;
+}
+.containerImg {
+  max-width: 1440px;
+  margin: auto;
+}
+.CadsImgInto {
+  max-width: 1300px;
+  margin: auto;
+}
+.descriptionOnes {
+  width: 563px;
+  height: 17px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #212121;
+}
+.descriptionOne {
+  width: 65px;
+  height: 17px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #212121;
+}
+.logoTitle {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 26px;
+  margin-bottom: 26px;
+}
+.shareDescription {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #212121;
+}
+.bookNow {
+  width: 193px;
+  height: 48px;
+  background: linear-gradient(
+    264.2deg,
+    #129e47 2.5%,
+    #1069ab 101.82%,
+    #1069ab 101.82%
+  );
+  border-radius: 25px;
+  border: none;
+  color: #fff;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+.share {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.share {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.developmentsTitle {
+  height: 88px;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+  align-items: center;
+  padding-right: 50px;
+  padding-left: 50px;
+  border-radius: 15px;
+  justify-content: space-between;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.iconCantainer {
+  display: flex;
+  gap: 50px;
+}
+.EventDCon {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 50px;
+}
+.EventDLeft {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 790px;
+  margin-bottom: 80px;
+  border-radius: 15px;
+  padding: 40px;
+}
+.dateTimeCard {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 360px;
+  height: 290px;
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 15px;
+}
+.Location {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  color: #212121;
+}
+.Descriptionn {
+  width: 223px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  color: #129e47;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+.mapBtn {
+  width: 207px;
+  height: 41px;
+  background: linear-gradient(
+    264.2deg,
+    #129e47 2.5%,
+    #1069ab 101.82%,
+    #1069ab 101.82%
+  );
+  border-radius: 25px;
+  border: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+.description {
+  width: 710px;
+  height: 408px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #212121;
+}
+.logo {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  color: #212121;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.containerText {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 40px;
+} 
+.titlee {
+  width: 634px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #212121;
+}
+.text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000000;
+}
+.imgContainer {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 1200px) {
+  .logoTitle{
+    margin-left: 40px;
+  }
+  .developmentsTitle{
+    max-width: 1000px;
+  }
+  .EventDLeft{
+    max-width: 600px;
+    
+  }
+  .description{
+    max-width: 550px;
+    margin-bottom: 100px;
+  }
+  .EventDCon {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    gap: 50px;
+  }
+
+}
+@media (max-width: 1000px) {
+  .developmentsTitle{
+    max-width: 800px;
+  }
+  .EventDLeft{
+    max-width: 100%;
+    
+  }
+  .description{
+    max-width: 100%;
+    margin-bottom: 100px;
+  }
+  .EventDCon {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 50px;
+
+  }
+
+}
+@media (max-width: 830px) {
+  .developmentsTitle{
+    margin: 0px 20px ;
+    margin-bottom:10px ;
+  }
+  .titlee{
+    max-width: 100%;
+  }
+  .EventDCon {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 50px;
+    margin-left: 20px ;
+    margin-right: 20px ;
+  }
+}
+@media (max-width: 800px) {
+  .titleImg {
+    height: 350px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 710px) { 
+  .titleImg {
+    height: 320px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 650px) { 
+
+  .developmentsTitle{
+    margin-left: 10px;
+  }
+  .EventDLeft{
+    max-width: 100%;
+  }
+  .description{
+    max-width: 100%;
+  }
+  .titlee {
+    max-width: 400px;
+
+  }
+  .bookNow{
+    display: none;
+  }
+}
+@media (max-width: 630px) { 
+  .titleImg {
+    height: 300px;
+  }
+
+}
+@media (max-width: 580px) { 
+
+  .titleImg {
+    height: 280px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 550px) { 
+
+  .titleImg {
+    height: 260px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 530px) { 
+
+  .titleImg {
+    height: 250px;
+    margin-bottom: 30px;
+  }
+  .descriptionOnes{
+    display: none;
+  }
+}
+@media (max-width: 500px) { 
+
+  .developmentsTitle{
+    margin-left: 10px;
+  }
+  .EventDLeft{
+    max-width: 100%;
+    
+  }
+  .description{
+    max-width: 100%;
+    margin-bottom: 350px;
+  }
+  .titlee {
+    max-width: 95%;
+  }
+  .titleImg {
+    height: 230px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 460px) { 
+
+  .titleImg {
+    height: 220px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 420px) { 
+
+  .titleImg {
+    height: 200px;
+    margin-bottom: 30px;
+  }
+  .share{
+    display: none;
+  }
+  .developmentsTitle{
+    display: none;
+  }
+}
+@media (max-width: 400px) { 
+  .titlee{
+    display: none;
+  }
+  .logo{
+    margin-top: 0px ;
+  }
+}
+@media (max-width: 380px) { 
+
+  .titleImg {
+    height: 180px;
+    margin-bottom: 30px;
+  }
+  .dateTimeCard{
+    width: 320px;
+  }
+}
+@media (max-width: 370px) { 
+  .description{
+    max-width: 260px;
+    margin-bottom: 670px;
+  }
+
+}
+@media (max-width: 340px) { 
+
+  .EventDLeft{
+    max-width: 300px;
+    
+  }
+  .Descriptionn {
+    width: 210px;
+
+  }
+  .titleLeftCards{
+    width: 210px;
+
+  }
+  .Location{
+    width: 210px;
+  }
+  .description{
+    max-width: 260px;
+    margin-bottom: 670px;
+  }
+  .dateTimeCard {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    max-width: 300px;
+    
+    height: 300px;
+    margin-left: 0px;
+    padding-left: 5px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 15px;
+  }
+  .titleImg {
+    height: 160px;
+    margin-bottom: 30px;
+  }
+  .dateTimeCard {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 330px;
+    height: 290px;
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 15px;
+  }
+  .titlee {
+    max-width: 260px;
+
+  }
+}
+
+  
+

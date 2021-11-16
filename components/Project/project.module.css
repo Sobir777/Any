@@ -1,0 +1,251 @@
+.logoTitle{
+    display: flex;
+    gap: 10px;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+    margin-top:36px ;
+    margin-bottom: 26px;
+}
+.containerBtn{
+    max-width:1200px;
+    margin: auto;
+    display: flex;  
+    gap: 25px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.btnOne{    
+    width:105px ;
+    height: 48px;
+    border: none;
+    background: #F4F4F4;
+    border-radius: 5px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #222331;
+
+}
+.btnTwo{
+    width:180px ;
+    height: 48px;
+    border: none;
+    background: #F4F4F4;
+    border-radius: 5px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #222331;
+}   
+.btnThree{
+    width: 264px;
+    height: 48px;
+    border: none;
+    background: #F4F4F4;
+    border-radius: 5px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #222331;
+}
+.btnFore{
+    width:214px ;
+    height: 48px;
+    border: none;
+    background: #F4F4F4;
+    border-radius: 5px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #222331;
+}
+.btnFive{
+    width: 270px;
+    height: 48px;
+    border: none;
+    background: #F4F4F4;
+    border-radius: 5px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #222331;
+}
+.btnOne:hover{
+    background: #B8FFD3;
+}
+.btnTwo:hover{
+    background: #B8FFD3;
+}
+.btnThree:hover{
+    background: #B8FFD3;
+}
+.btnFore:hover{
+    background: #B8FFD3;
+}
+.btnFive:hover{
+    background: #B8FFD3;
+}
+.title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #212121;
+    margin-bottom: 25px;
+}
+.logo{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.descriptionn{
+    max-width: 100%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+.logoo{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.descriptionno{
+    max-width: 100%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+.description{
+    max-width: 503px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+.shchelkovskyBusStation{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    gap: 45px;
+    margin-bottom: 47px;
+}
+.descColor{
+    height: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #129E47;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    cursor:pointer;
+}
+.containerShowMore{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.showMore{
+    width: 210px;
+    height: 48px;
+    background: linear-gradient(264.2deg, #129E47 2.5%, #1069AB 101.82%, #1069AB 101.82%);
+    border-radius: 25px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: none;
+}
+.imgContainer{
+    margin-top: 20px;
+}
+
+@media (max-width: 1250px) {
+    .logoTitle{
+      margin-left: 40px;
+    }
+    .containerBtn{
+        margin-left:  20px ;
+        margin-right: 20px;
+        max-width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .lastComponent{
+        margin-left:  20px ;
+        margin-right: 20px;
+    }
+  }
+
+@media (max-width: 940px) {
+    .logoo{
+        display:none;
+    }
+    .descriptionno{
+        display:none;
+    }
+
+  }
+@media (max-width: 790px) {
+    .title{
+        max-width: 100%;
+        font-size: 22px;
+    }
+
+  
+  }
+@media (max-width: 700px) {
+    .shchelkovskyBusStation{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        
+    }
+    .imgimg{
+        max-width: 100%;
+        margin: auto;
+    }
+    .imgTexxt{
+        max-width: 75%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+  }
